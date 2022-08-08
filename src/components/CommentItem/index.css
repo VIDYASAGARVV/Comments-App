@@ -1,0 +1,113 @@
+.amber {
+  background-color: #f59e0b;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.orange {
+  background-color: #f97316;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.emerald {
+  background-color: #10b981;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.teal {
+  background-color: #14b8a6;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.red {
+  background-color: #b91c1c;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  border-radius: 40px;
+  height: 40px;
+}
+
+/* Write your CSS here */
+.separator {
+  background-color: #cbd2d9;
+  height: 2px;
+  width: 100vw;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.user-name {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.date-of-comment {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #94a3b8;
+  margin-right: 30px;
+}
+
+.user-comment {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 900;
+  color: #7e858e;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.liked {
+  color: #0b69ff;
+  margin-left: 15px;
+}
+.like {
+  margin-left: 15px;
+  color: #7e858e;
+}
+.initial {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.comment {
+  list-style-type: none;
+}

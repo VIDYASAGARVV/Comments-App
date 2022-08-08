@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #dee0e3;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.top-container {
+  display: flex;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+}
+.input-name {
+  border: 2px solid #cbd2d9;
+  height: 32px;
+  width: 300px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.input-content {
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+  outline: none;
+}
+
+.comment-btn {
+  height: 30px;
+  width: 120px;
+  color: #dee0e3;
+  background-color: #0284c7;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.separator {
+  background-color: #cbd2d9;
+  height: 3px;
+  width: 100vw;
+}
+.count {
+  color: #dee0e3;
+  background-color: #0284c7;
+  border: 0px;
+  outline: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 2px;
+  margin-right: 5px;
+}
